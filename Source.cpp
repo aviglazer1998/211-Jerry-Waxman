@@ -1,0 +1,20 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+
+	bool found = false;
+	int i = 5;
+
+	while (found == false) {
+		int sqr = (i * i) % 100;
+
+		if (sqr % 2 != 0  && (sqr / 10) % 2 != 0) {
+				cout << sqr << endl;
+				break;
+		}
+		i += 2;
+	}
+	system("pause");
+	return 0;
+}
