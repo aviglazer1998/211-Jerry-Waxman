@@ -49,6 +49,7 @@ int main(){
 			while (c >= 0 && c < k){
 
 				q[c]++;                
+				
 
 				if (q[c] == (n * n))           
 					c--;
